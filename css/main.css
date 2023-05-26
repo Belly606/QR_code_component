@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+  height: 100vh;
+}
+.container {
+  background-color: #d6e1f0;
+  position: relative;
+  margin: auto;
+  top: 50%;
+  width: 800px;
+  height: 600px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+@media (width: 375px) {
+  .container {
+    height: 100%;
+    width: 100%;
+  }
+}
+.qr {
+  width: 200px;
+  height: fit-content;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 6px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.container img {
+  width: 100%;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.container p {
+  font-size: 15px;
+  text-align: center;
+}
+.container p:first-of-type {
+  font-weight: bold;
+  margin: 10px 5px;
+}
+.container p:last-of-type {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0 5px 10px;
+}
+.attribution {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
